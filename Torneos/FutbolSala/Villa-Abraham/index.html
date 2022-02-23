@@ -1,0 +1,257 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Villa Abraham</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../../css/style.css">
+    <link rel="stylesheet" href="../../../css/menu.css">
+    <link rel="stylesheet" href="../../../css/listaEquipos.css">
+    <link rel="stylesheet" href="../tabla.css">
+    <link rel="stylesheet" href="../../../css/jugador.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>  
+    <div class="container">
+      <header class="header" id="header">
+        <nav class="navbar container">
+          <a href="../../../index.html" class="brand"><img src="../../../img/Logo.png" style="width: 42%;"></a>
+          <div class="menu" id="menu">
+            <ul class="menu-list">
+              <li class="menu-item">
+                <a href="../../../index.html" class="menu-link">
+                  <i class="menu-icon fa-solid fa-house-user"></i>
+                  <span class="menu-name">Inicio</span>
+                </a>
+              </li>
+              <li class="menu-item">
+                <a href="../../../TorneosMicro.html" class="menu-link  is-active">
+                  <i class="menu-icon fa-solid fa-futbol"></i>
+                  <span class="menu-name">Fútbol de Salón</span>
+                </a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="menu-link">
+                  <i class="menu-icon fa-regular fa-futbol"></i>
+                  <span class="menu-name">Fútbol</span>
+                </a>
+              </li>              
+              <li class="menu-item">
+                <a href="#" class="menu-link">
+                  <i class="menu-icon fa-solid fa-basketball"></i>
+                  <span class="menu-name">Baloncesto</span>
+                </a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="menu-link">
+                  <i class="menu-icon fa-solid fa-clipboard-check"></i>
+                  <span class="menu-name">Acerca de:</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+
+      <!-- Inicio información de torneos -->
+      <div class="infoTorneos" style="margin-bottom: 70px;">
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-plantilla-tab" data-bs-toggle="pill" data-bs-target="#pills-plantilla" type="button" role="tab" aria-controls="pills-plantilla" aria-selected="false">Plantilla</button>
+            </li> 
+            <li class="nav-item" role="presentation">
+                <button class="nav-link active" id="pills-resultado-tab" data-bs-toggle="pill" data-bs-target="#pills-resultado" type="button" role="tab" aria-controls="pills-resultado" aria-selected="true">Resultados</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-partidos-tab" data-bs-toggle="pill" data-bs-target="#pills-partidos" type="button" role="tab" aria-controls="pills-partidos" aria-selected="false">Partidos</button>
+            </li>
+            <li class="nav-item" role="presentation">
+                <button class="nav-link" id="pills-resultados-tab" data-bs-toggle="pill" data-bs-target="#pills-resultados" type="button" role="tab" aria-controls="pills-resultados" aria-selected="false">Estadísticas</button>
+            </li>                    
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+
+            <!-- Plantilla -->
+          <div class="tab-pane fade" id="pills-plantilla" role="tabpanel" aria-labelledby="pills-plantilla-tab">
+            <div class="contenedorJugadores">
+              <div class="player">
+                <div class="player-info">
+                    <h2 class="player-name"><span class="player-team">West Ham United</span>Mark Noble</h2>
+                    <div class="player-stats">		
+                        <div class="numEstadistica">
+                            <h4 class="player-stat">PJ</h4>
+                            <p class="player-stat-number">2</p>
+                        </div>  
+                        <div class="numEstadistica">
+                            <h4 class="player-stat">Gol</h4>
+                            <p class="player-stat-number">5</p>
+                        </div>   
+                        <div class="numEstadistica">
+                            <h4 class="player-stat">TA</h4>
+                            <p class="player-stat-number">1</p>
+                        </div>
+                        <div class="numEstadistica">
+                            <h4 class="player-stat">TR</h4>
+                            <p class="player-stat-number">0</p>
+                        </div>               
+                    </div>
+                </div>
+                <div class="player-image">
+                    <img src="https://assets.codepen.io/285131/noble.png" />
+                    <span class="captain-badge">8<span>
+                </div>
+              </div>
+
+
+              <div class="player">
+                <div class="player-info">
+                    <h2 class="player-name"><span class="player-team">Club Zaeta</span>Alejandro Upegui</h2>
+                    <div class="player-stats">		
+                        <div class="numEstadistica">
+                            <h4 class="player-stat">PJ</h4>
+                            <p class="player-stat-number">2</p>
+                        </div>  
+                        <div class="numEstadistica">
+                            <h4 class="player-stat">Gol</h4>
+                            <p class="player-stat-number">5</p>
+                        </div>   
+                        <div class="numEstadistica">
+                            <h4 class="player-stat">TA</h4>
+                            <p class="player-stat-number">1</p>
+                        </div>
+                        <div class="numEstadistica">
+                            <h4 class="player-stat">TR</h4>
+                            <p class="player-stat-number">0</p>
+                        </div>               
+                    </div>
+                </div>
+                <div class="player-image">
+                    <img src="../../../img/alejo.png" style="height: 240px;"/>
+                    <span class="captain-badge">1<span>
+                </div>
+              </div>
+
+              <div class="player">
+                <div class="player-info">
+                    <h2 class="player-name"><span class="player-team">Sel Alcalá</span>Jhon Romairo Bedoya</h2>
+                    <div class="player-stats">		
+                        <div class="numEstadistica">
+                            <h4 class="player-stat">PJ</h4>
+                            <p class="player-stat-number">2</p>
+                        </div>  
+                        <div class="numEstadistica">
+                            <h4 class="player-stat">Gol</h4>
+                            <p class="player-stat-number">5</p>
+                        </div>   
+                        <div class="numEstadistica">
+                            <h4 class="player-stat">TA</h4>
+                            <p class="player-stat-number">1</p>
+                        </div>
+                        <div class="numEstadistica">
+                            <h4 class="player-stat">TR</h4>
+                            <p class="player-stat-number">0</p>
+                        </div>               
+                    </div>
+                </div>
+                <div class="player-image">
+                    <img src="../../../img/jhon.png" style="height: 240px;"/>
+                    <span class="captain-badge">10<span>
+                </div>
+              </div>
+
+
+            </div>
+            
+            
+          </div>
+          <!-- Fin Plantilla -->
+
+
+          <!-- Inicio Resultados -->
+          <div class="tab-pane fade show active" id="pills-resultado" role="tabpanel" aria-labelledby="pills-resultado-tab">
+          
+
+          </div>
+          <!-- Fin Resultados -->
+          
+          <!-- Inicio Partidos -->
+          <div class="tab-pane fade" id="pills-partidos" role="tabpanel" aria-labelledby="pills-partidos-tab">
+            
+          </div>
+          <!-- Fin Partidos -->     
+
+          <!-- Estadísticas -->
+          <div class="tab-pane fade" id="pills-estadistica" role="tabpanel" aria-labelledby="pills-estadistica-tab">
+            
+          </div>
+          <!-- Fin Estadísticas -->
+
+
+        </div>
+      </div>
+      
+      
+      <!-- Fin información de torneos -->
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer id="contact">
+      <ul>
+        <div id="icon-container">
+          <a href="#">
+            <div class="icon">
+              <li><i class="fab fa-twitter"></i></li>
+            </div>
+          </a>
+          <a href="#">
+            <div class="icon">
+              <li><i class="fab fa-instagram"></i></li>
+            </div>
+          </a>
+          <a href="#">
+            <div class="icon">
+              <li><i class="fab fa-facebook-f"></i></li>
+            </div>
+          </a>
+          <a href="#">
+            <div class="icon">
+              <li><i class="far fa-envelope"></i></li>
+            </div>
+          </a>
+          <a href="#">
+            <div class="icon">
+              <li><i class="fab fa-free-code-camp"></i></li>
+            </div>
+          </a>
+        </div>
+      </ul>
+      <p>&copy; 2022 - Alejandro Upegui - Jhon Romairo Bedoya</p>
+    </footer>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

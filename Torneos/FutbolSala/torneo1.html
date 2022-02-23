@@ -1,0 +1,790 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Inicio - Torneos Alcalá</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+    <link rel="stylesheet" href="../../css/style.css">
+    <link rel="stylesheet" href="../../css/menu.css">
+    <link rel="stylesheet" href="../../css/listaEquipos.css">
+    <link rel="stylesheet" href="../../css/tabla.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>  
+    <div class="container">
+      <header class="header" id="header">
+        <nav class="navbar container">
+          <a href="../../index.html" class="brand"><img src="../../img/Logo.png" style="width: 42%;"></a>
+          <div class="menu" id="menu">
+            <ul class="menu-list">
+              <li class="menu-item">
+                <a href="../../index.html" class="menu-link">
+                  <i class="menu-icon fa-solid fa-house-user"></i>
+                  <span class="menu-name">Inicio</span>
+                </a>
+              </li>
+              <li class="menu-item">
+                <a href="../../TorneosMicro.html" class="menu-link  is-active">
+                  <i class="menu-icon fa-solid fa-futbol"></i>
+                  <span class="menu-name">Fútbol de Salón</span>
+                </a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="menu-link">
+                  <i class="menu-icon fa-regular fa-futbol"></i>
+                  <span class="menu-name">Fútbol</span>
+                </a>
+              </li>              
+              <li class="menu-item">
+                <a href="#" class="menu-link">
+                  <i class="menu-icon fa-solid fa-basketball"></i>
+                  <span class="menu-name">Baloncesto</span>
+                </a>
+              </li>
+              <li class="menu-item">
+                <a href="#" class="menu-link">
+                  <i class="menu-icon fa-solid fa-clipboard-check"></i>
+                  <span class="menu-name">Acerca de:</span>
+                </a>
+              </li>
+            </ul>
+          </div>
+        </nav>
+      </header>
+
+
+      <!-- Inicio información de torneos -->
+      <div class="infoTorneos" style="margin-bottom: 70px;">
+        <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+          <li class="nav-item" role="presentation">
+            <button class="nav-link active" id="pills-equipos-tab" data-bs-toggle="pill" data-bs-target="#pills-equipos" type="button" role="tab" aria-controls="pills-equipos" aria-selected="true">Equipos</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-partidos-tab" data-bs-toggle="pill" data-bs-target="#pills-partidos" type="button" role="tab" aria-controls="pills-partidos" aria-selected="false">Partidos</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-resultados-tab" data-bs-toggle="pill" data-bs-target="#pills-resultados" type="button" role="tab" aria-controls="pills-resultados" aria-selected="false">Resultados</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-posiciones-tab" data-bs-toggle="pill" data-bs-target="#pills-posiciones" type="button" role="tab" aria-controls="pills-posiciones" aria-selected="true">Posiciones</button>
+          </li>
+          <li class="nav-item" role="presentation">
+            <button class="nav-link" id="pills-estadistica-tab" data-bs-toggle="pill" data-bs-target="#pills-estadistica" type="button" role="tab" aria-controls="pills-estadistica" aria-selected="true">Estadísticas</button>
+          </li>
+        </ul>
+        <div class="tab-content" id="pills-tabContent">
+          <!-- Inicio Equipos -->
+          <div class="tab-pane fade show active" id="pills-equipos" role="tabpanel" aria-labelledby="pills-equipos-tab">
+          <!-- Inicio Equipos -->
+            <div class="contenedorEquipos">
+              <div class="cardContainerEquipos">
+                <div class="headerEquipos">
+                  <a href="" class="imagenEquipo">
+                    <img src="../FutbolSala/Asfixiados/logoAsfixiados.png" alt="">
+                  </a>
+                  <h2>Asfixiados F.C.</h2>
+                  <a class="enlaceEquipo">Ver más...</a>
+                </div>
+              </div>
+  
+              <div class="cardContainerEquipos">
+                <div class="headerEquipos">
+                  <a href="" class="imagenEquipo">
+                    <img src="../FutbolSala/Balsal/logoBalsal.png" alt="">
+                  </a>
+                  <h2>Balsal F.C.</h2>
+                  <a class="enlaceEquipo">Ver más...</a>
+                </div>
+              </div>
+  
+              <div class="cardContainerEquipos">
+                <div class="headerEquipos">
+                  <a href="" class="imagenEquipo">
+                    <img src="../FutbolSala/Chacaritas/logoChacaritas.png" alt="">
+                  </a>
+                  <h2>Chacaritas</h2>
+                  <a class="enlaceEquipo">Ver más...</a>
+                </div>
+              </div>
+  
+              <div class="cardContainerEquipos">
+                <div class="headerEquipos">
+                  <a href="" class="imagenEquipo">
+                    <img src="../FutbolSala/CJ-Andres-Salinas/logoCJAndresSalinas.png" alt="">
+                  </a>
+                  <h2>CJ Andres Salinas</h2>
+                  <a class="enlaceEquipo">Ver más...</a>
+                </div>
+              </div>
+              
+              <div class="cardContainerEquipos">
+                <div class="headerEquipos">
+                  <a href="" class="imagenEquipo">
+                    <img src="Zaeta/logoZaeta.png" alt="">
+                  </a>
+                  <h2>Club Zaeta</h2>
+                  <a class="enlaceEquipo">Ver más...</a>
+                </div>
+              </div>
+  
+              <div class="cardContainerEquipos">
+                <div class="headerEquipos">
+                  <a href="" class="imagenEquipo">
+                    <img src="./El-Gran-Combo/logoElGranCombo.png" alt="">
+                  </a>
+                  <h2>El Gran Combo</h2>
+                  <a class="enlaceEquipo">Ver más...</a>
+                </div>
+              </div>
+  
+              <div class="cardContainerEquipos">
+                <div class="headerEquipos">
+                  <a href="" class="imagenEquipo">
+                    <img src="FAR-20/logoFAR.png" alt="">
+                  </a>
+                  <h2>F.A.R. 20</h2>
+                  <a class="enlaceEquipo">Ver más...</a>
+                </div>
+              </div>
+  
+              <div class="cardContainerEquipos">
+                <div class="headerEquipos">
+                  <a href="" class="imagenEquipo">
+                    <img src="LaPlazuela/logoLaPlazuela.png" alt="">
+                  </a>
+                  <h2>La Plazuela</h2>
+                  <a class="enlaceEquipo">Ver más...</a>
+                </div>
+              </div>
+  
+              <div class="cardContainerEquipos">
+                <div class="headerEquipos">
+                  <a href="" class="imagenEquipo">
+                    <img src="Rayo/logoRayo.png" alt="">
+                  </a>
+                  <h2>Rayo</h2>
+                  <a class="enlaceEquipo">Ver más...</a>
+                </div>
+              </div>
+  
+              <div class="cardContainerEquipos">
+                <div class="headerEquipos">
+                  <a href="" class="imagenEquipo">
+                    <img src="Sel-Alcala/logoSelAlcala.png" alt="">
+                  </a>
+                  <h2>Selección Alcalá</h2>
+                  <a class="enlaceEquipo">Ver más...</a>
+                </div>
+              </div>
+
+              <div class="cardContainerEquipos">
+                <div class="headerEquipos">
+                  <a href="" class="imagenEquipo">
+                    <img src="SinFronteras/logoSinFronteras.png" alt="">
+                  </a>
+                  <h2>Sin Fronteras F.C.</h2>
+                  <a class="enlaceEquipo">Ver más...</a>
+                </div>
+              </div>
+
+              <div class="cardContainerEquipos">
+                <div class="headerEquipos">
+                  <a href="" class="imagenEquipo">
+                    <img src="Ulloa/logoUlloa.png" alt="">
+                  </a>
+                  <h2>Ulloa F.C.</h2>
+                  <a class="enlaceEquipo">Ver más...</a>
+                </div>
+              </div>
+
+              <div class="cardContainerEquipos">
+                <div class="headerEquipos">
+                  <a href="" class="imagenEquipo">
+                    <img src="Villa-Abraham/logoVillaAbraham.png" alt="">
+                  </a>
+                  <h2>Villa Abraham</h2>
+                  <a class="enlaceEquipo">Ver más...</a>
+                </div>
+              </div>
+
+            </div>
+            
+
+            
+            
+
+          <!-- Fin Equipos -->
+
+          </div>
+          <!-- Fin Equipos -->
+          
+          <!-- Inicio Partidos -->
+          <div class="tab-pane fade" id="pills-partidos" role="tabpanel" aria-labelledby="pills-partidos-tab">
+            <div class="contenido">
+              <div class="tituloTorneo">
+                <img src="img/EscudoAlcalá.png" alt="" style="width: 35px;">
+                <h3>FÚTBOL DE SALÓN: Campeonato Municipal 2022 - Fecha 1</h3>
+              </div>
+      
+              
+      
+              <div class="partidos">
+                <div class="grupoEquipo">Grupo A</div>
+                <div class="nombreEquipo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Rayo</div>
+                <div class="escudoEquipo">
+                  <img src="Rayo/logoRayo.png" alt="">
+                </div>
+                <div class="marcadorPartido">7:00 PM</div>          
+                <div class="escudoEquipo">
+                  <img src="FAR-20/logoFAR.png" alt="">
+                </div>
+                <div class="nombreEquipo">F.A.R. 20</div>
+              </div>
+
+              <div class="partidos">
+                <div class="grupoEquipo">Grupo B</div>
+                <div class="nombreEquipo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Villa Abraham</div>
+                <div class="escudoEquipo">
+                  <img src="Villa-Abraham/logoVillaAbraham.png" alt="">
+                </div>
+                <div class="marcadorPartido">7:50 PM</div>          
+                <div class="escudoEquipo">
+                  <img src="Zaeta/logoZaeta.png" alt="">
+                </div>
+                <div class="nombreEquipo">Club Zaeta</div>
+              </div>
+
+              <div class="partidos">
+                <div class="grupoEquipo">Grupo B</div>
+                <div class="nombreEquipo">&nbsp;&nbsp;Sin Fronteras F.C.</div>
+                <div class="escudoEquipo">
+                  <img src="SinFronteras/logoSinFronteras.png" alt="">
+                </div>
+                <div class="marcadorPartido">8:40 PM</div>          
+                <div class="escudoEquipo">
+                  <img src="LaPlazuela/logoLaPlazuela.png" alt="">
+                </div>
+                <div class="nombreEquipo">La Plazuela</div>
+              </div>
+      
+              
+      
+              <div class="partidos">
+                <div class="grupoEquipo">Grupo A</div>
+                <div class="nombreEquipo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Sel. Alcalá</div>
+                <div class="escudoEquipo">
+                  <img src="Sel-Alcala/logoSelAlcala.png" alt="">
+                </div>
+                <div class="marcadorPartido">Por definir</div>          
+                <div class="escudoEquipo">
+                  <img src="Asfixiados/logoAsfixiados.png" alt="">
+                </div>
+                <div class="nombreEquipo">Asfixiados F.C.</div>
+              </div>
+
+              <div class="partidos">
+                <div class="grupoEquipo">Grupo A</div>
+                <div class="nombreEquipo">El Gran Combo</div>
+                <div class="escudoEquipo">
+                  <img src="El-Gran-Combo/logoElGranCombo.png" alt="">
+                </div>
+                <div class="marcadorPartido">Por definir</div>          
+                <div class="escudoEquipo">
+                  <img src="Ulloa/logoUlloa.png" alt="">
+                </div>
+                <div class="nombreEquipo">Ulloa F.C.</div>
+              </div>
+      
+              
+      
+              <div class="partidos">
+                <div class="grupoEquipo">Grupo B</div>
+                <div class="nombreEquipo">&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;Balsal F.C.</div>
+                <div class="escudoEquipo">
+                  <img src="Balsal/logoBalsal.png" alt="">
+                </div>
+                <div class="marcadorPartido">Por definir</div>          
+                <div class="escudoEquipo">
+                  <img src="Chacaritas/logoChacaritas.png" alt="">
+                </div>
+                <div class="nombreEquipo">Chacaritas</div>
+              </div>
+              
+      
+            </div>
+            
+
+            
+          </div>
+          <!-- Fin Partidos -->
+
+          <!-- Inicio Resultados -->
+          <div class="tab-pane fade" id="pills-resultados" role="tabpanel" aria-labelledby="pills-resultados-tab">
+            <div class="contenido">
+              <div class="tituloTorneo">
+                <img src="img/EscudoAlcalá.png" alt="" style="width: 35px;">
+                <h3>Aún no hay partidos finalizados</h3>
+              </div>              
+            </div>
+          </div>
+          <!-- Fin Resultados -->
+
+          <!-- Inicio tabla de Posiciones -->
+          <div class="tab-pane fade" id="pills-posiciones" role="tabpanel" aria-labelledby="pills-posiciones-tab">
+            <div class="containerTablaPosicion">
+              <div class="comp-select"></div>
+              <div class="comp-title"><h1 class="comp-name">Grupo A</h1></div>
+              <div class="comp-table-container">
+              <table class="comp-table">
+                <thead>
+                  <tr class="comp-table-header">
+                    <th class="rank">Pos.</th>
+                    <th class="team">Equipo</th>
+                    <th class="played">PJ</th>
+                    <th class="won">PG</th>
+                    <th class="drawn">PE</th>
+                    <th class="lost">PP</th>
+                    <th class="for">GF</th>
+                    <th class="against">GC</th>
+                    <th class="difference">DG</th>
+                    <th class="points">Pts</th>
+                  </tr>
+                </thead>
+                <tbody class="comp-table-body">
+                  <tr class="comp-table-team-row">
+                    <td class="rank">1</td>
+                    <td class="team">
+                      <img src="El-Gran-Combo/logoElGranCombo.png" title="El Gran Combo" alt="El Gran Combo">
+                      <span class="name-full">El Gran Combo</span>
+                      <span class="name-short">GCO</span>
+                    </td>
+                    <td class="played">0</td>
+                    <td class="won">0</td>
+                    <td class="drawn">0</td>
+                    <td class="lost">0</td>
+                    <td class="for">0</td>
+                    <td class="against">0</td>
+                    <td class="difference">0</td>
+                    <td class="points">0</td>
+                  </tr>
+                  <tr class="comp-table-team-row">
+                    <td class="rank">2</td>
+                    <td class="team">
+                      <img src="Ulloa/logoUlloa.png" title="Ulloa F.C." alt="Ulloa F.C.">
+                      <span class="name-full">Ulloa F.C.</span>
+                      <span class="name-short">ULL</span>
+                    </td>
+                    <td class="played">0</td>
+                    <td class="won">0</td>
+                    <td class="drawn">0</td>
+                    <td class="lost">0</td>
+                    <td class="for">0</td>
+                    <td class="against">0</td>
+                    <td class="difference">0</td>
+                    <td class="points">0</td>
+                  </tr>
+                  <tr class="comp-table-team-row">
+                    <td class="rank">3</td>
+                    <td class="team">
+                      <img src="Rayo/logoRayo.png" title="Rayo" alt="Rayo">
+                      <span class="name-full">Rayo</span>
+                      <span class="name-short">RAY</span>
+                    </td>
+                    <td class="played">0</td>
+                    <td class="won">0</td>
+                    <td class="drawn">0</td>
+                    <td class="lost">0</td>
+                    <td class="for">0</td>
+                    <td class="against">0</td>
+                    <td class="difference">0</td>
+                    <td class="points">0</td>
+                  </tr>
+                  <tr class="comp-table-team-row">
+                    <td class="rank">4</td>
+                    <td class="team">
+                      <img src="FAR-20/logoFAR.png" title="F.A.R. 20" alt="FAR">
+                      <span class="name-full">F.A.R. 20</span>
+                      <span class="name-short">FAR</span>
+                    </td>
+                    <td class="played">0</td>
+                    <td class="won">0</td>
+                    <td class="drawn">0</td>
+                    <td class="lost">0</td>
+                    <td class="for">0</td>
+                    <td class="against">0</td>
+                    <td class="difference">0</td>
+                    <td class="points">0</td>
+                  </tr>
+                  <tr class="comp-table-team-row">
+                    <td class="rank">5</td>
+                    <td class="team">
+                      <img src="Sel-Alcala/logoSelAlcala.png" title="Sel Alcalá" alt="SAL">
+                      <span class="name-full">Sel Alcalá</span>
+                      <span class="name-short">SAL</span>
+                    </td>
+                    <td class="played">0</td>
+                    <td class="won">0</td>
+                    <td class="drawn">0</td>
+                    <td class="lost">0</td>
+                    <td class="for">0</td>
+                    <td class="against">0</td>
+                    <td class="difference">0</td>
+                    <td class="points">0</td>
+                  </tr>
+                  <tr class="comp-table-team-row">
+                    <td class="rank">6</td>
+                    <td class="team">
+                      <img src="Asfixiados/logoAsfixiados.png" title="Asfixiados" alt="Asfixiados">
+                      <span class="name-full">Asfixiados F.C.</span>
+                      <span class="name-short">ASF</span>
+                    </td>
+                    <td class="played">0</td>
+                    <td class="won">0</td>
+                    <td class="drawn">0</td>
+                    <td class="lost">0</td>
+                    <td class="for">0</td>
+                    <td class="against">0</td>
+                    <td class="difference">0</td>
+                    <td class="points">0</td>
+                  </tr>
+                  <tr class="comp-table-team-row">
+                    <td class="rank">7</td>
+                    <td class="team">
+                      <img src="CJ-Andres-Salinas/logoCJAndresSalinas.png" title="Andres Salinas" alt="Andres Salinas">
+                      <span class="name-full">CJ Andres Salinas</span>
+                      <span class="name-short">CJAS</span>
+                    </td>
+                    <td class="played">0</td>
+                    <td class="won">0</td>
+                    <td class="drawn">0</td>
+                    <td class="lost">0</td>
+                    <td class="for">0</td>
+                    <td class="against">0</td>
+                    <td class="difference">0</td>
+                    <td class="points">0</td>
+                  </tr>
+      
+      
+                </tbody>
+              </table>
+              </div>        
+            </div>
+
+
+            <div class="containerTablaPosicion">
+              <div class="comp-select"></div>
+              <div class="comp-title"><h1 class="comp-name">Grupo B</h1></div>
+              <div class="comp-table-container">
+              <table class="comp-table">
+                <thead>
+                  <tr class="comp-table-header">
+                    <th class="rank">Pos.</th>
+                    <th class="team">Equipo</th>
+                    <th class="played">PJ</th>
+                    <th class="won">PG</th>
+                    <th class="drawn">PE</th>
+                    <th class="lost">PP</th>
+                    <th class="for">GF</th>
+                    <th class="against">GC</th>
+                    <th class="difference">DG</th>
+                    <th class="points">Pts</th>
+                  </tr>
+                </thead>
+                <tbody class="comp-table-body">
+                  <tr class="comp-table-team-row">
+                    <td class="rank">1</td>
+                    <td class="team">
+                      <img src="LaPlazuela/logoLaPlazuela.png" title="La Plazuela" alt="La Plazuela">
+                      <span class="name-full">La Plazuela</span>
+                      <span class="name-short">PLA</span>
+                    </td>
+                    <td class="played">0</td>
+                    <td class="won">0</td>
+                    <td class="drawn">0</td>
+                    <td class="lost">0</td>
+                    <td class="for">0</td>
+                    <td class="against">0</td>
+                    <td class="difference">0</td>
+                    <td class="points">0</td>
+                  </tr>
+                  <tr class="comp-table-team-row">
+                    <td class="rank">2</td>
+                    <td class="team">
+                      <img src="SinFronteras/logoSinFronteras.png" title="Sin Fronteras" alt="Sin Fronteras">
+                      <span class="name-full">Sin Fronteras F.C.</span>
+                      <span class="name-short">SFR</span>
+                    </td>
+                    <td class="played">0</td>
+                    <td class="won">0</td>
+                    <td class="drawn">0</td>
+                    <td class="lost">0</td>
+                    <td class="for">0</td>
+                    <td class="against">0</td>
+                    <td class="difference">0</td>
+                    <td class="points">0</td>
+                  </tr>
+                  <tr class="comp-table-team-row">
+                    <td class="rank">3</td>
+                    <td class="team">
+                      <img src="Villa-Abraham/logoVillaAbraham.png" title="Villa Abraham" alt="Villa Abraham">
+                      <span class="name-full">Villa Abraham</span>
+                      <span class="name-short">VAB</span>
+                    </td>
+                    <td class="played">0</td>
+                    <td class="won">0</td>
+                    <td class="drawn">0</td>
+                    <td class="lost">0</td>
+                    <td class="for">0</td>
+                    <td class="against">0</td>
+                    <td class="difference">0</td>
+                    <td class="points">0</td>
+                  </tr>
+                  <tr class="comp-table-team-row">
+                    <td class="rank">4</td>
+                    <td class="team">
+                      <img src="Zaeta/logoZaeta.png" title="Zaeta" alt="Zaeta">
+                      <span class="name-full">Club Zaeta</span>
+                      <span class="name-short">CZA</span>
+                    </td>
+                    <td class="played">0</td>
+                    <td class="won">0</td>
+                    <td class="drawn">0</td>
+                    <td class="lost">0</td>
+                    <td class="for">0</td>
+                    <td class="against">0</td>
+                    <td class="difference">0</td>
+                    <td class="points">0</td>
+                  </tr>
+                  <tr class="comp-table-team-row">
+                    <td class="rank">5</td>
+                    <td class="team">
+                      <img src="Balsal/logoBalsal.png" title="Balsal FC" alt="Balsal FC">
+                      <span class="name-full">Balsal F.C.</span>
+                      <span class="name-short">BAL</span>
+                    </td>
+                    <td class="played">0</td>
+                    <td class="won">0</td>
+                    <td class="drawn">0</td>
+                    <td class="lost">0</td>
+                    <td class="for">0</td>
+                    <td class="against">0</td>
+                    <td class="difference">0</td>
+                    <td class="points">0</td>
+                  </tr>
+                  <tr class="comp-table-team-row">
+                    <td class="rank">6</td>
+                    <td class="team">
+                      <img src="Chacaritas/logoChacaritas.png" title="Chacaritas" alt="Chacaritas">
+                      <span class="name-full">Chacaritas</span>
+                      <span class="name-short">CHA</span>
+                    </td>
+                    <td class="played">0</td>
+                    <td class="won">0</td>
+                    <td class="drawn">0</td>
+                    <td class="lost">0</td>
+                    <td class="for">0</td>
+                    <td class="against">0</td>
+                    <td class="difference">0</td>
+                    <td class="points">0</td>
+                  </tr>
+      
+      
+                </tbody>
+              </table>
+              </div>        
+            </div>
+
+
+          </div>
+          <!-- Fin tabla de Posiciones -->
+        
+          <!-- Estadísticas -->
+          <div class="tab-pane fade" id="pills-estadistica" role="tabpanel" aria-labelledby="pills-estadistica-tab">
+            <div class="containerTablaPosicion">
+              <div class="comp-select"></div>
+              <div class="comp-title"><h1 class="comp-name">Goleador</h1></div>
+              <div class="comp-table-container">
+              <table class="comp-table">
+                <thead>
+                  <tr class="comp-table-header">
+                    <th class="rank">Pos.</th>
+                    <th class="played">Jugador</th> 
+                    <th class="team">Equipo</th>                    
+                    <th class="points">Gol</th>
+                  </tr>
+                </thead>
+                <tbody class="comp-table-body">
+                  <tr class="comp-table-team-row">
+                    <td class="rank">1</td>
+                    <!-- <td class="played">Alejandro Upegui</td>
+                    <td class="team">
+                      <img src="../../img/america.png" title="América" alt="América">
+                      <span class="name-full">América</span>
+                      <span class="name-short">Amé</span>
+                    </td>  
+                    <td class="points">0</td> -->
+                  </tr>
+                  <tr class="comp-table-team-row">
+                    <td class="rank">2</td>
+                  </tr>
+                  <tr class="comp-table-team-row">
+                    <td class="rank">3</td>
+                  </tr>
+                  <tr class="comp-table-team-row">
+                    <td class="rank">4</td>
+                  </tr>
+                  <tr class="comp-table-team-row">
+                    <td class="rank">5</td>
+                  </tr>
+      
+      
+                </tbody>
+              </table>
+              </div>        
+            </div>
+
+            <div class="containerTablaPosicion">
+              <div class="comp-select"></div>
+              <div class="comp-title"><h1 class="comp-name">Valla menos Vencida</h1></div>
+              <div class="comp-table-container">
+              <table class="comp-table">
+                <thead>
+                  <tr class="comp-table-header">
+                    <th class="rank">Pos.</th>
+                    <th class="played">Jugador</th> 
+                    <th class="team">Equipo</th>                    
+                    <th class="points">GC</th>
+                  </tr>
+                </thead>
+                <tbody class="comp-table-body">
+                  <tr class="comp-table-team-row">
+                    <td class="rank">1</td>                    
+                  </tr>
+                  <tr class="comp-table-team-row">
+                    <td class="rank">2</td>
+                  </tr>
+                  <tr class="comp-table-team-row">
+                    <td class="rank">3</td>
+                  </tr>
+                  <tr class="comp-table-team-row">
+                    <td class="rank">4</td>
+                  </tr>
+                  <tr class="comp-table-team-row">
+                    <td class="rank">5</td>
+                  </tr>
+      
+      
+                </tbody>
+              </table>
+              </div>        
+            </div>
+
+            <div class="containerTablaPosicion">
+              <div class="comp-select"></div>
+              <div class="comp-title"><h1 class="comp-name">Tarjetas</h1></div>
+              <div class="comp-table-container">
+              <table class="comp-table">
+                <thead>
+                  <tr class="comp-table-header">
+                    <th class="rank">Pos.</th>
+                    <th class="team">Equipo</th>                    
+                    <th class="points">TA</th>
+                    <th class="points">TR</th>
+
+                  </tr>
+                </thead>
+                <tbody class="comp-table-body">
+                  <tr class="comp-table-team-row">
+                    <td class="rank">1</td>                    
+                  </tr>
+                  <tr class="comp-table-team-row">
+                    <td class="rank">2</td>
+                  </tr>
+                  <tr class="comp-table-team-row">
+                    <td class="rank">3</td>
+                  </tr>
+                  <tr class="comp-table-team-row">
+                    <td class="rank">4</td>
+                  </tr>
+                  <tr class="comp-table-team-row">
+                    <td class="rank">5</td>
+                  </tr>
+      
+      
+                </tbody>
+              </table>
+              </div>        
+            </div>
+
+
+          </div>
+          <!-- Fin Estadísticas -->
+
+
+        </div>
+      </div>
+      
+      
+      <!-- Fin información de torneos -->
+
+
+
+
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+
+
+
+
+
+
+    <footer id="contact">
+      <ul>
+        <div id="icon-container">
+          <a href="#">
+            <div class="icon">
+              <li><i class="fab fa-twitter"></i></li>
+            </div>
+          </a>
+          <a href="#">
+            <div class="icon">
+              <li><i class="fab fa-instagram"></i></li>
+            </div>
+          </a>
+          <a href="#">
+            <div class="icon">
+              <li><i class="fab fa-facebook-f"></i></li>
+            </div>
+          </a>
+          <a href="#">
+            <div class="icon">
+              <li><i class="far fa-envelope"></i></li>
+            </div>
+          </a>
+          <a href="#">
+            <div class="icon">
+              <li><i class="fab fa-free-code-camp"></i></li>
+            </div>
+          </a>
+        </div>
+      </ul>
+      <p>&copy; 2022 - Alejandro Upegui - Jhon Romairo Bedoya</p>
+    </footer>
+
+    
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+</body>
+</html>

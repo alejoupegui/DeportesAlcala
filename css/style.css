@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    /* font-family: 'Raleway', sans-serif !important; */
+    background-color: #fff;
+}
+/* 
+.partidos h3{
+    font-size: 25px;
+    color:green;
+    text-align: center;
+    margin-top: 30px;
+}
+
+.partidos hr{
+    width: 50%;
+    margin: auto;
+    color: #3F7373;
+}
+
+.contenedorGeneralResultados{    
+    margin-top: 10px;
+}
+
+.contenedorResultados{
+    text-align: center;
+    margin: auto;
+    width: 50%;
+    color:#254559;
+
+}
+
+.contenedorResultados div{
+    display: inline-block;
+    margin: 2px 5px;
+}
+
+.equipoLocal img{
+    width: 30px;
+}
+
+.equipoVisitante img{
+    width: 30px;
+} */
+
+
+.contenido{
+    margin: auto;
+    margin-top: 80px;
+    margin-bottom: -50px;
+    width: 70%;
+    border-radius: 10px;
+    background-color: #F2F2F2;
+    font-family: 'Raleway', sans-serif;
+}
+
+.tituloTorneo{    
+    background-color: #099067;
+    color: white;
+    border-radius: 10px;
+    padding: 8px;
+    /* text-align: center;     */
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+
+.tituloTorneo h3{
+    font-size: 20px;
+    font-weight: bold;
+    margin-left: 15px;
+}
+
+.partidos{
+    padding: 5px;
+    border-bottom: 1px solid #ccc;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+.partidos .grupoEquipo{
+  position: absolute;
+  top: 0;
+    left: 50%;
+    font-size: 10px;
+  color: #099067;
+  font-weight: 800;
+}
+
+.nombreEquipo{  
+  font-size:14px;
+  font-weight: bold;
+}
+
+.escudoEquipo{
+    width: 35px;
+    margin: 0px 10px 0px 10px;
+}
+
+.marcadorPartido{
+  font-size: 20px;
+  font-weight: bold;
+  margin: 0px 30px;
+}
+
+.verMas{
+  text-align: center;
+}
+
+.verMas a{
+  font-size: 14px;
+}
+
+@media only screen and (max-width: 780px){
+  .tituloTorneo h3{
+    font-size: 16px;
+  }
+}
+
+@media only screen and (max-width: 600px){
+  .tituloTorneo h3{
+    font-size: 14px;
+    text-align: center;
+  }
+  .escudoEquipo{
+    width: 15px;
+  }
+  .marcadorPartido{
+    font-size: 15px;
+    margin: 0px 10px;
+  }
+
+  .contenido{
+    width: 95%;
+  }
+}
+
+
+
+/*099067*/
+
+
+  
+  /* footer {
+    position: absolute;
+    width: 100%;
+    bottom: 0;
+  }  */
+
+  footer{
+    margin-top: 70px;
+    width: 100%;
+    /* bottom: 0;
+    position: absolute; */
+  }
+  
+  ul {
+    margin: 0;
+    padding: 0;
+  }
+  
+  ul li {
+    list-style: none;
+  }
+  
+  #contact a {
+    color: #099067;
+    margin: 10px;
+  }
+  
+  #contact {
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100px;
+    background-color: #099067;
+  }
+  
+  .icon {
+    background-color: #fff;
+    border-radius: 50%;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: transform 1s, box-shadow 0.5s;
+    box-shadow: 0 2px 3px rgb(0 0 0 / 12%), 0 2px 2px rgb(0 0 0 / 24%);
+  }
+  
+  #icon-container {
+    display: flex;
+    justify-content: center;
+  }
+  
+  .icon:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 3px 5px 5px rgb(0 0 0 / 12%), 0 3px 5px rgb(0 0 0 / 24%);
+  }
+  
+  #contact p {
+      font-size: 18px;
+      font-family:'Raleway', Courier, monospace;
+  }
+  
+  @media screen and (max-width: 1050px) {
+   #contact{
+       display: none;
+   }
+  }
