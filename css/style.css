@@ -91,7 +91,7 @@ body{
 
 .partidos .grupoEquipo{
   position: absolute;
-  top: 0;
+  top: -5%;
     left: 50%;
     font-size: 10px;
   color: #099067;
