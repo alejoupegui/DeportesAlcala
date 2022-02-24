@@ -136,6 +136,12 @@ body{
   .escudoEquipo{
     width: 15px;
   }
+
+  .nombreEquipo{ 
+    font-size: 2.5vw;
+  }
+
+
   .marcadorPartido{
     font-size: 15px;
     margin: 0px 10px;
