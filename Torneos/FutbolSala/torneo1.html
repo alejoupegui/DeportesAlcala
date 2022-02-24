@@ -62,10 +62,10 @@
             <button class="nav-link active" id="pills-equipos-tab" data-bs-toggle="pill" data-bs-target="#pills-equipos" type="button" role="tab" aria-controls="pills-equipos" aria-selected="true">Equipos</button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-partidos-tab" data-bs-toggle="pill" data-bs-target="#pills-partidos" type="button" role="tab" aria-controls="pills-partidos" aria-selected="false">Partidos</button>
+            <button class="nav-link" id="pills-partidos-tab" data-bs-toggle="pill" data-bs-target="#pills-partidos" type="button" role="tab" aria-controls="pills-partidos" aria-selected="false">Resultados</button>
           </li>
           <li class="nav-item" role="presentation">
-            <button class="nav-link" id="pills-resultados-tab" data-bs-toggle="pill" data-bs-target="#pills-resultados" type="button" role="tab" aria-controls="pills-resultados" aria-selected="false">Resultados</button>
+            <button class="nav-link" id="pills-resultados-tab" data-bs-toggle="pill" data-bs-target="#pills-resultados" type="button" role="tab" aria-controls="pills-resultados" aria-selected="false">Próximos Partidos</button>
           </li>
           <li class="nav-item" role="presentation">
             <button class="nav-link" id="pills-posiciones-tab" data-bs-toggle="pill" data-bs-target="#pills-posiciones" type="button" role="tab" aria-controls="pills-posiciones" aria-selected="true">Posiciones</button>
@@ -220,7 +220,7 @@
           </div>
           <!-- Fin Equipos -->
           
-          <!-- Inicio Partidos -->
+          <!-- Inicio Resultados -->
           <div class="tab-pane fade" id="pills-partidos" role="tabpanel" aria-labelledby="pills-partidos-tab">
             <div class="contenido">
               <div class="tituloTorneo">
@@ -267,9 +267,18 @@
                   <img src="LaPlazuela/logoLaPlazuela.png" alt="">
                 </div>
                 <div class="nombreEquipo">La Plazuela</div>
-              </div>
-      
-              
+              </div>  
+            </div>
+          </div>
+          <!-- Fin Resultados -->
+
+          <!-- Inicio Proximos partidos -->
+          <div class="tab-pane fade" id="pills-resultados" role="tabpanel" aria-labelledby="pills-resultados-tab">
+            <div class="contenido">
+              <div class="tituloTorneo">
+                <img src="img/EscudoAlcalá.png" alt="" style="width: 35px;">
+                <h3>FÚTBOL DE SALÓN: Campeonato Municipal 2022 - Fecha 1</h3>
+              </div> 
       
               <div class="partidos">
                 <div class="grupoEquipo">Grupo A</div>
@@ -314,22 +323,8 @@
               
       
             </div>
-            
-
-            
           </div>
-          <!-- Fin Partidos -->
-
-          <!-- Inicio Resultados -->
-          <div class="tab-pane fade" id="pills-resultados" role="tabpanel" aria-labelledby="pills-resultados-tab">
-            <div class="contenido">
-              <div class="tituloTorneo">
-                <img src="img/EscudoAlcalá.png" alt="" style="width: 35px;">
-                <h3>Aún no hay partidos finalizados</h3>
-              </div>              
-            </div>
-          </div>
-          <!-- Fin Resultados -->
+          <!-- Fin Proximos partidos -->
 
           <!-- Inicio tabla de Posiciones -->
           <div class="tab-pane fade" id="pills-posiciones" role="tabpanel" aria-labelledby="pills-posiciones-tab">
@@ -356,18 +351,18 @@
                   <tr class="comp-table-team-row">
                     <td class="rank">1</td>
                     <td class="team">
-                      <img src="El-Gran-Combo/logoElGranCombo.png" title="El Gran Combo" alt="El Gran Combo">
-                      <span class="name-full">El Gran Combo</span>
-                      <span class="name-short">GCO</span>
+                      <img src="Rayo/logoRayo.png" title="El Gran Combo" alt="El Gran Combo">
+                      <span class="name-full">Rayo</span>
+                      <span class="name-short">RAY</span>
                     </td>
-                    <td class="played">0</td>
-                    <td class="won">0</td>
+                    <td class="played">1</td>
+                    <td class="won">1</td>
                     <td class="drawn">0</td>
                     <td class="lost">0</td>
-                    <td class="for">0</td>
-                    <td class="against">0</td>
-                    <td class="difference">0</td>
-                    <td class="points">0</td>
+                    <td class="for">6</td>
+                    <td class="against">3</td>
+                    <td class="difference">+3</td>
+                    <td class="points">2</td>
                   </tr>
                   <tr class="comp-table-team-row">
                     <td class="rank">2</td>
@@ -388,9 +383,9 @@
                   <tr class="comp-table-team-row">
                     <td class="rank">3</td>
                     <td class="team">
-                      <img src="Rayo/logoRayo.png" title="Rayo" alt="Rayo">
-                      <span class="name-full">Rayo</span>
-                      <span class="name-short">RAY</span>
+                      <img src="El-Gran-Combo/logoElGranCombo.png" title="Rayo" alt="Rayo">
+                      <span class="name-full">El Gran Combo</span>
+                      <span class="name-short">GCO</span>
                     </td>
                     <td class="played">0</td>
                     <td class="won">0</td>
@@ -404,9 +399,9 @@
                   <tr class="comp-table-team-row">
                     <td class="rank">4</td>
                     <td class="team">
-                      <img src="FAR-20/logoFAR.png" title="F.A.R. 20" alt="FAR">
-                      <span class="name-full">F.A.R. 20</span>
-                      <span class="name-short">FAR</span>
+                      <img src="CJ-Andres-Salinas/logoCJAndresSalinas.png" title="Andres Salinas" alt="Andres Salinas">
+                      <span class="name-full">CJ Andres Salinas</span>
+                      <span class="name-short">CJAS</span>
                     </td>
                     <td class="played">0</td>
                     <td class="won">0</td>
@@ -450,22 +445,21 @@
                     <td class="points">0</td>
                   </tr>
                   <tr class="comp-table-team-row">
-                    <td class="rank">7</td>
+                    <td class="rank">7</td>                    
                     <td class="team">
-                      <img src="CJ-Andres-Salinas/logoCJAndresSalinas.png" title="Andres Salinas" alt="Andres Salinas">
-                      <span class="name-full">CJ Andres Salinas</span>
-                      <span class="name-short">CJAS</span>
+                      <img src="FAR-20/logoFAR.png" title="F.A.R. 20" alt="FAR">
+                      <span class="name-full">F.A.R. 20</span>
+                      <span class="name-short">FAR</span>
                     </td>
-                    <td class="played">0</td>
+                    <td class="played">1</td>
                     <td class="won">0</td>
                     <td class="drawn">0</td>
-                    <td class="lost">0</td>
-                    <td class="for">0</td>
-                    <td class="against">0</td>
-                    <td class="difference">0</td>
+                    <td class="lost">1</td>
+                    <td class="for">3</td>
+                    <td class="against">6</td>
+                    <td class="difference">-3</td>
                     <td class="points">0</td>
-                  </tr>
-      
+                  </tr>    
       
                 </tbody>
               </table>
@@ -496,66 +490,66 @@
                   <tr class="comp-table-team-row">
                     <td class="rank">1</td>
                     <td class="team">
-                      <img src="LaPlazuela/logoLaPlazuela.png" title="La Plazuela" alt="La Plazuela">
-                      <span class="name-full">La Plazuela</span>
-                      <span class="name-short">PLA</span>
+                      <img src="Zaeta/logoZaeta.png" title="Zaeta" alt="Zaeta">
+                      <span class="name-full">Club Zaeta</span>
+                      <span class="name-short">CZA</span>
                     </td>
-                    <td class="played">0</td>
+                    <td class="played">1</td>
                     <td class="won">0</td>
-                    <td class="drawn">0</td>
+                    <td class="drawn">1</td>
                     <td class="lost">0</td>
-                    <td class="for">0</td>
-                    <td class="against">0</td>
+                    <td class="for">5</td>
+                    <td class="against">5</td>
                     <td class="difference">0</td>
-                    <td class="points">0</td>
+                    <td class="points">1</td>
                   </tr>
                   <tr class="comp-table-team-row">
                     <td class="rank">2</td>
-                    <td class="team">
-                      <img src="SinFronteras/logoSinFronteras.png" title="Sin Fronteras" alt="Sin Fronteras">
-                      <span class="name-full">Sin Fronteras F.C.</span>
-                      <span class="name-short">SFR</span>
-                    </td>
-                    <td class="played">0</td>
-                    <td class="won">0</td>
-                    <td class="drawn">0</td>
-                    <td class="lost">0</td>
-                    <td class="for">0</td>
-                    <td class="against">0</td>
-                    <td class="difference">0</td>
-                    <td class="points">0</td>
-                  </tr>
-                  <tr class="comp-table-team-row">
-                    <td class="rank">3</td>
                     <td class="team">
                       <img src="Villa-Abraham/logoVillaAbraham.png" title="Villa Abraham" alt="Villa Abraham">
                       <span class="name-full">Villa Abraham</span>
                       <span class="name-short">VAB</span>
                     </td>
-                    <td class="played">0</td>
+                    <td class="played">1</td>
                     <td class="won">0</td>
-                    <td class="drawn">0</td>
+                    <td class="drawn">1</td>
                     <td class="lost">0</td>
-                    <td class="for">0</td>
-                    <td class="against">0</td>
+                    <td class="for">5</td>
+                    <td class="against">5</td>
                     <td class="difference">0</td>
-                    <td class="points">0</td>
+                    <td class="points">1</td>
+                  </tr>
+                  <tr class="comp-table-team-row">
+                    <td class="rank">3</td>   
+                    <td class="team">
+                      <img src="LaPlazuela/logoLaPlazuela.png" title="La Plazuela" alt="La Plazuela">
+                      <span class="name-full">La Plazuela</span>
+                      <span class="name-short">PLA</span>
+                    </td>
+                    <td class="played">1</td>
+                    <td class="won">0</td>
+                    <td class="drawn">1</td>
+                    <td class="lost">0</td>
+                    <td class="for">2</td>
+                    <td class="against">2</td>
+                    <td class="difference">0</td>
+                    <td class="points">1</td>
                   </tr>
                   <tr class="comp-table-team-row">
                     <td class="rank">4</td>
                     <td class="team">
-                      <img src="Zaeta/logoZaeta.png" title="Zaeta" alt="Zaeta">
-                      <span class="name-full">Club Zaeta</span>
-                      <span class="name-short">CZA</span>
+                      <img src="SinFronteras/logoSinFronteras.png" title="Sin Fronteras" alt="Sin Fronteras">
+                      <span class="name-full">Sin Fronteras F.C.</span>
+                      <span class="name-short">SFR</span>
                     </td>
-                    <td class="played">0</td>
+                    <td class="played">1</td>
                     <td class="won">0</td>
-                    <td class="drawn">0</td>
+                    <td class="drawn">1</td>
                     <td class="lost">0</td>
-                    <td class="for">0</td>
-                    <td class="against">0</td>
+                    <td class="for">2</td>
+                    <td class="against">2</td>
                     <td class="difference">0</td>
-                    <td class="points">0</td>
+                    <td class="points">1</td>
                   </tr>
                   <tr class="comp-table-team-row">
                     <td class="rank">5</td>
@@ -579,6 +573,22 @@
                       <img src="Chacaritas/logoChacaritas.png" title="Chacaritas" alt="Chacaritas">
                       <span class="name-full">Chacaritas</span>
                       <span class="name-short">CHA</span>
+                    </td>
+                    <td class="played">0</td>
+                    <td class="won">0</td>
+                    <td class="drawn">0</td>
+                    <td class="lost">0</td>
+                    <td class="for">0</td>
+                    <td class="against">0</td>
+                    <td class="difference">0</td>
+                    <td class="points">0</td>
+                  </tr>
+                  <tr class="comp-table-team-row">
+                    <td class="rank">7</td>
+                    <td class="team">
+                      <img src="Chacaritas/logoChacaritas.png" title="Chacaritas" alt="Chacaritas">
+                      <span class="name-full">Real Madrid</span>
+                      <span class="name-short">RMA</span>
                     </td>
                     <td class="played">0</td>
                     <td class="won">0</td>
